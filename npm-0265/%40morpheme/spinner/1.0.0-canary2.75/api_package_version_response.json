@@ -1,0 +1,81 @@
+{
+    "name": "@morpheme/spinner",
+    "version": "1.0.0-canary2.75",
+    "keywords": [
+        "spinner",
+        "loader",
+        "loading",
+        "ui-component",
+        "ui"
+    ],
+    "author": {
+        "name": "Warsono",
+        "email": "warsono16694@gmail.com"
+    },
+    "license": "MIT",
+    "_id": "@morpheme/spinner@1.0.0-canary2.75",
+    "maintainers": [
+        {
+            "name": "gravitano",
+            "email": "warsono16694@gmail.com"
+        }
+    ],
+    "dist": {
+        "shasum": "b6ff199a3f2e424fefeaff93c53bd6722117e49d",
+        "tarball": "https://registry.npmjs.org/@morpheme/spinner/-/spinner-1.0.0-canary2.75.tgz",
+        "fileCount": 21,
+        "integrity": "sha512-PbQV+mSGctY4DVy6GHoLQTmsGAe5BXaobgmBtoZimcaPoa7Oh0agl+xymmO40r6DeOVKMQ3mHoFzjswB7ixTJQ==",
+        "signatures": [
+            {
+                "sig": "MEYCIQDGkKgHWmNgvmjGWIc4wwvC9Agk8B//utrOchh3tW8kmgIhALrJB4rg7lzMbtdTxjwEgm+2n76kTk3CdA5fsdcPXJBz",
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+            }
+        ],
+        "unpackedSize": 23841
+    },
+    "main": "dist/spinner.umd.js",
+    "types": "./dist/types/index.d.ts",
+    "unpkg": "dist/spinner.iife.js",
+    "module": "./dist/spinner.mjs",
+    "exports": {
+        ".": {
+            "import": "./dist/spinner.mjs",
+            "require": "./dist/spinner.js"
+        },
+        "./*": "./*",
+        "./src/*": "./src/*",
+        "./package.json": "./package.json"
+    },
+    "gitHead": "d9cec7bda2af1c3627bccf9928dd7c83136497d3",
+    "scripts": {
+        "test": "vitest",
+        "build": "vite build && vue-tsc --emitDeclarationOnly && mv dist/src dist/types",
+        "prepublishOnly": "npm run build"
+    },
+    "_npmUser": {
+        "name": "gravitano",
+        "email": "warsono16694@gmail.com"
+    },
+    "jsdelivr": "dist/spinner.iife.js",
+    "_npmVersion": "lerna/6.6.2/node@v16.19.1+x64 (darwin)",
+    "description": "Morpheme Spinner Component",
+    "directories": {},
+    "_nodeVersion": "16.19.1",
+    "dependencies": {
+        "vue": "^3.3.4"
+    },
+    "_hasShrinkwrap": false,
+    "readmeFilename": "README.md",
+    "devDependencies": {
+        "c8": "^7.11.3",
+        "vite": "^4.3.8",
+        "vitest": "^0.12.4",
+        "@morpheme/utils": "^1.0.0-canary2.75+d9cec7bd",
+        "@vue/test-utils": "^2.0.0-rc.17",
+        "@morpheme/tailwind-config": "^1.0.0-canary2.75+d9cec7bd"
+    },
+    "_npmOperationalInternal": {
+        "tmp": "tmp/spinner_1.0.0-canary2.75_1694143959378_0.28375749441643916",
+        "host": "s3://npm-registry-packages"
+    }
+}
