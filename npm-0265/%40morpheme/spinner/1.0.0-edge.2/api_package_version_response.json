@@ -1,0 +1,82 @@
+{
+    "name": "@morpheme/spinner",
+    "version": "1.0.0-edge.2",
+    "keywords": [
+        "spinner",
+        "loader",
+        "loading",
+        "ui-component",
+        "ui"
+    ],
+    "author": {
+        "name": "Warsono",
+        "email": "warsono16694@gmail.com"
+    },
+    "license": "MIT",
+    "_id": "@morpheme/spinner@1.0.0-edge.2",
+    "maintainers": [
+        {
+            "name": "gravitano",
+            "email": "warsono16694@gmail.com"
+        }
+    ],
+    "dist": {
+        "shasum": "80bbcc1ed01882d38bb546a12676fecdaaa9284a",
+        "tarball": "https://registry.npmjs.org/@morpheme/spinner/-/spinner-1.0.0-edge.2.tgz",
+        "fileCount": 21,
+        "integrity": "sha512-AlXSeeFXwNx/FUeX7oM0jFFeTZMMxG5xxgdeErLvJNpJdBMQE05j09dXn0Y2RkcPOjZ7brhboQT65cFhapc/uQ==",
+        "signatures": [
+            {
+                "sig": "MEUCIH7rgSuTx2F+Bkx0dtIMFHEuPPWh+ES+tJFO2cTgZOEgAiEA1z3RDlHYSqa6+Ry+KiU6IqL35bKckIGZaoXzZRCXulY=",
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+            }
+        ],
+        "unpackedSize": 24163
+    },
+    "main": "dist/spinner.umd.js",
+    "_from": "file:morpheme-spinner-1.0.0-edge.2+7f407428.tgz",
+    "types": "./dist/types/index.d.ts",
+    "unpkg": "dist/spinner.iife.js",
+    "module": "./dist/spinner.mjs",
+    "exports": {
+        ".": {
+            "import": "./dist/spinner.mjs",
+            "require": "./dist/spinner.js"
+        },
+        "./*": "./*",
+        "./src/*": "./src/*",
+        "./package.json": "./package.json"
+    },
+    "gitHead": "7f407428b6783ea29b25bdecdfdeefd6d7a06ede",
+    "scripts": {
+        "test": "vitest",
+        "build": "vite build && vue-tsc --emitDeclarationOnly && mv dist/src dist/types"
+    },
+    "_npmUser": {
+        "name": "gravitano",
+        "email": "warsono16694@gmail.com"
+    },
+    "jsdelivr": "dist/spinner.iife.js",
+    "_resolved": "/tmp/fb73616168368e2fe8ee30f3a5788653/morpheme-spinner-1.0.0-edge.2+7f407428.tgz",
+    "_integrity": "sha512-AlXSeeFXwNx/FUeX7oM0jFFeTZMMxG5xxgdeErLvJNpJdBMQE05j09dXn0Y2RkcPOjZ7brhboQT65cFhapc/uQ==",
+    "_npmVersion": "9.6.7",
+    "description": "Morpheme Spinner Component",
+    "directories": {},
+    "_nodeVersion": "18.17.1",
+    "dependencies": {
+        "vue": "^3.3.4"
+    },
+    "_hasShrinkwrap": false,
+    "devDependencies": {
+        "c8": "^7.11.3",
+        "vite": "^4.3.8",
+        "vitest": "^0.12.4",
+        "@morpheme/utils": "^1.0.0-edge.2+7f407428",
+        "@vue/test-utils": "^2.0.0-rc.17",
+        "@morpheme/tailwind-config": "^1.0.0-edge.2+7f407428"
+    },
+    "_npmOperationalInternal": {
+        "tmp": "tmp/spinner_1.0.0-edge.2_1698408291348_0.12217773998907977",
+        "host": "s3://npm-registry-packages"
+    }
+}
