@@ -1,0 +1,82 @@
+{
+    "name": "@morpheme/spinner",
+    "version": "1.0.0-alpha.13",
+    "keywords": [
+        "spinner",
+        "loader",
+        "loading",
+        "ui-component",
+        "ui"
+    ],
+    "author": {
+        "name": "Warsono",
+        "email": "warsono16694@gmail.com"
+    },
+    "license": "MIT",
+    "_id": "@morpheme/spinner@1.0.0-alpha.13",
+    "maintainers": [
+        {
+            "name": "gravitano",
+            "email": "warsono16694@gmail.com"
+        }
+    ],
+    "dist": {
+        "shasum": "d4f2ff586c7090d3c52b37a2b2e67a364ccddf14",
+        "tarball": "https://registry.npmjs.org/@morpheme/spinner/-/spinner-1.0.0-alpha.13.tgz",
+        "fileCount": 21,
+        "integrity": "sha512-VjowJ3/qtkwkRvPJxFSxjDR99OhaPs1GEc4W1y9fZInd+QMU6zt839I7O+SFeb8GZcm9+etezFxUcjsDNyMCJQ==",
+        "signatures": [
+            {
+                "sig": "MEUCIQDogB8K1KcwJ/OmNJxcn4lmPfukDaNPUJ6gFBZ4cxIr1AIgZfudvRG8JzIsyEdfmRF8PZ1M9zit9OzRv3enPChqywE=",
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+            }
+        ],
+        "unpackedSize": 28983,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkKwOhACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmodkxAAg76OI2g5f2ZOfnycOLP6XKLwFp4vwSFjrokSJw+fnw4F37V2\r\ndizF+YF8xM2sdusOP9XVq35yCj6kq1+H8OF2OfU6L2+75yCgFbJkdwXFu1mG\r\nXCE3WMhUIIQSOWhEEPUO33OpLMtKJDOGtY7ujn8f3I+OaTvtkUvwU59yewVN\r\nLx4pVQ1s8zpFiI0fhkwAKRWSgMbO3L4HkH97JM581Usu+pbWwEPQMbLPgqj1\r\npRWvUci3CkvJ0k9eW4Mnt/OyPIxH8DWEbkwxRhbpdQGVkAzH8Lug2OHacD7r\r\nvLeNOx8clWRX2QO8CuI0ta82aLo1rBEWUEvg59TcapPRFZLGs8870ZKfGggA\r\n43rwbSvNN0TQLtFfNX/YbC7lhRAnNSv5kQMUpyFO1CghhXjTBfsI90uRK7Wf\r\n4TtkEbP49sbugeIz6QM+BMFpEr2vw+zW1YoI8zmmmvhiXYY5fFMoeAIREgA3\r\nzQHfSeZYA4zQ2I952nLfspP69IobM1DYPhPYOMc1E2l3MouVz7+4OkiqZqB3\r\nLHnPeorYREx7zSl75blmWHgWz3484VeM2ZXJoB/pMvQzFCFhH7IAIuLH4mPt\r\nY8tUAfA9lag2ybI/31iry2bGBf6RRz7ne63MtM5cVCmx1OXmbVnnUjoKlYWk\r\nVAxKL2lpEDj0gughIiwC+nWrTcF8Md3NtKs=\r\n=l5xv\r\n-----END PGP SIGNATURE-----\r\n"
+    },
+    "main": "dist/spinner.umd.js",
+    "types": "./dist/types/index.d.ts",
+    "unpkg": "dist/spinner.iife.js",
+    "module": "./dist/spinner.mjs",
+    "exports": {
+        ".": {
+            "import": "./dist/spinner.mjs",
+            "require": "./dist/spinner.js"
+        },
+        "./*": "./*",
+        "./src/*": "./src/*",
+        "./package.json": "./package.json"
+    },
+    "gitHead": "47c53aee043493a973d8714e9e1f9206acef5f01",
+    "scripts": {
+        "test": "vitest",
+        "build": "vite build && vue-tsc --emitDeclarationOnly && mv dist/src dist/types",
+        "prepublishOnly": "npm run build"
+    },
+    "_npmUser": {
+        "name": "gravitano",
+        "email": "warsono16694@gmail.com"
+    },
+    "jsdelivr": "dist/spinner.iife.js",
+    "_npmVersion": "lerna/6.5.1/node@v16.19.1+x64 (linux)",
+    "description": "Morpheme Spinner Component",
+    "directories": {},
+    "_nodeVersion": "16.19.1",
+    "dependencies": {
+        "vue": "^3.2.33"
+    },
+    "_hasShrinkwrap": false,
+    "readmeFilename": "README.md",
+    "devDependencies": {
+        "c8": "^7.11.3",
+        "vite": "^3.0.0",
+        "vitest": "^0.12.4",
+        "@morpheme/utils": "^1.0.0-alpha.13+47c53aee",
+        "@vue/test-utils": "^2.0.0-rc.17",
+        "@morpheme/tailwind-config": "^1.0.0-alpha.13+47c53aee"
+    },
+    "_npmOperationalInternal": {
+        "tmp": "tmp/spinner_1.0.0-alpha.13_1680540576918_0.5088547437131388",
+        "host": "s3://npm-registry-packages"
+    }
+}
